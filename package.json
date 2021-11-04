@@ -41,7 +41,7 @@
     "dayjs": "^1.10.7",
     "deepmerge": "^4.0.0",
     "ember-a11y-testing": "^4.2.1",
-    "ember-auto-import": "^2.2.3",
+    "ember-auto-import": "NullVoxPopuli/ember-auto-import#esbuild-for-minification",
     "ember-body-class": "^2.0.0",
     "ember-cli": "~3.28.0",
     "ember-cli-app-version": "^5.0.0",
@@ -109,5 +109,8 @@
   ],
   "volta": {
     "node": "14.16.0"
+  },
+  "dependencies": {
+    "sharp": "^0.29.2"
   }
 }
